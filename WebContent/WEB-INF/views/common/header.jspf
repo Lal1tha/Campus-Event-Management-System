@@ -1,0 +1,12 @@
+<%@ page import="com.campus.util.AppConstants" %>
+<%
+String cp = request.getContextPath();
+String role = (String) session.getAttribute(AppConstants.SESSION_ROLE);
+String userName = (String) session.getAttribute(AppConstants.SESSION_USER_NAME);
+%>
+<header class="topbar">
+    <strong>Campus Events</strong>
+    <span><%=role == null ? "" : role%></span>
+    <span><%=userName == null ? "" : userName%></span>
+    <a href="<%=cp%>/logout">Logout</a>
+</header>

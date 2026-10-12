@@ -1,0 +1,3 @@
+<% if (request.getAttribute("error") != null) { %><div class="alert error"><%=request.getAttribute("error")%></div><% } %>
+<% if (request.getAttribute("message") != null) { %><div class="alert success"><%=request.getAttribute("message")%></div><% } %>
+<% if (session.getAttribute("flash") != null) { %><div class="alert"><%=session.getAttribute("flash")%></div><% session.removeAttribute("flash"); } %>

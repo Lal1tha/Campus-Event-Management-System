@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>500</title><link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/style.css"></head><body class="center"><section class="auth-card"><h1>500</h1><p>Something went wrong while processing your request.</p><a class="button" href="<%=request.getContextPath()%>/index.jsp">Home</a></section></body></html>

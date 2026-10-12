@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>404</title><link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/style.css"></head><body class="center"><section class="auth-card"><h1>404</h1><p>The page you requested was not found.</p><a class="button" href="<%=request.getContextPath()%>/index.jsp">Home</a></section></body></html>

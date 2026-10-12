@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#20416f"/>
+  <path d="M0 650 C250 520 360 760 620 610 C820 500 980 520 1180 650 C1340 750 1480 660 1600 600 L1600 900 L0 900 Z" fill="#0f8b8d"/>
+  <rect x="210" y="230" width="1180" height="360" rx="28" fill="#f6f8fc" opacity=".92"/>
+  <rect x="300" y="320" width="220" height="180" fill="#2056c8" opacity=".88"/>
+  <rect x="580" y="320" width="220" height="180" fill="#0f8b8d" opacity=".88"/>
+  <rect x="860" y="320" width="220" height="180" fill="#f2b705" opacity=".88"/>
+  <rect x="1140" y="320" width="120" height="180" fill="#e5533d" opacity=".88"/>
+  <text x="800" y="190" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial" font-size="72" font-weight="700">Campus Events</text>
+</svg>

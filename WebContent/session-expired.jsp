@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Session Expired</title><link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/style.css"></head><body class="center"><section class="auth-card"><h1>Session Expired</h1><p>Please login again to continue.</p><a class="button" href="<%=request.getContextPath()%>/login">Login</a></section></body></html>

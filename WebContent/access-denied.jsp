@@ -1,0 +1,1 @@
+<!DOCTYPE html><html><head><title>Access Denied</title><link rel="stylesheet" href="<%=request.getContextPath()%>/assets/css/style.css"></head><body class="center"><section class="auth-card"><h1>Access Denied</h1><p>You do not have permission to access this page.</p><a class="button" href="<%=request.getContextPath()%>/login">Login</a></section></body></html>

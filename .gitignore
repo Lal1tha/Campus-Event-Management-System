@@ -1,0 +1,27 @@
+# Java compiled files
+*.class
+target/
+build/
+
+# Eclipse workspace and server files
+.metadata/
+Servers/
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# Database backups and local data
+*.bak
+*.dump

@@ -1,0 +1,27 @@
+<%@ page import="com.campus.util.AppConstants" %>
+<%
+String cp2 = request.getContextPath();
+String r = (String) session.getAttribute(AppConstants.SESSION_ROLE);
+%>
+<aside class="sidebar">
+    <a href="<%=cp2%>/index.jsp">Home</a>
+    <% if ("ADMIN".equals(r)) { %>
+    <a href="<%=cp2%>/admin/dashboard">Dashboard</a>
+    <a href="<%=cp2%>/admin/events/create">Create Event</a>
+    <a href="<%=cp2%>/admin/students">Students</a>
+    <a href="<%=cp2%>/admin/coordinators">Coordinators</a>
+    <a href="<%=cp2%>/admin/registrations">Registrations</a>
+    <a href="<%=cp2%>/admin/attendance">Attendance</a>
+    <a href="<%=cp2%>/admin/reports">Reports</a>
+    <a href="<%=cp2%>/admin/announcements">Announcements</a>
+    <% } else if ("STUDENT".equals(r)) { %>
+    <a href="<%=cp2%>/student/dashboard">Dashboard</a>
+    <a href="<%=cp2%>/student/profile">Profile</a>
+    <a href="<%=cp2%>/student/events">Events</a>
+    <a href="<%=cp2%>/student/attendance">Attendance</a>
+    <a href="<%=cp2%>/student/announcements">Announcements</a>
+    <% } else if ("COORDINATOR".equals(r)) { %>
+    <a href="<%=cp2%>/coordinator/dashboard">Dashboard</a>
+    <a href="<%=cp2%>/coordinator/scan">Scan QR</a>
+    <% } %>
+</aside>
